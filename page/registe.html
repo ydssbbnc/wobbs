@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <meta http-equiv="Content-Type"content="text/html;charset=utf-8"/>
+    <head>
+	<style>
+	 html,body{
+	     background-color:#282A36;
+	     height:30px;
+	     margin:0;
+	     font-size:large;
+	     color:#FF79C6;
+	 }
+	 
+	 .input1{
+	     border:0px;
+	     background-color:gray;
+	     font-size:large;
+	     color:#FF79C6;
+	 }
+	 .input2{
+	     background-color:gray;
+	     font-size:large;
+	     color:#FF79C6;
+	 }
+	 ::-webkit-input-placeholder { /* WebKit browsers */
+	     color:#FF79C6;/*set placeholder's text color*/
+	 }
+	</style>
+	<title>WO~~【</title>
+    </head>
+    <body>
+	<h2>Welcome to Registe!</h2>
+	<form  action="/prj/wobbs/RegisteServlet" method="post">
+	    <b>Name:</b><br>
+	    <input class="input1" type="text" name="name" >
+	    <br>
+	    <b>Password:</b><br>
+	    <input class="input1" type="password" name="pwd">
+	    <br>
+	    <b>E-mail:</b><br>
+	    <input class="input1" type="text" name="email" >
+	    <br>
+	    <b>Verification Code:</b><br>
+	    <input class="input1" type="text" name="vcode" placeholder="(Send in your email)" >
+	    <br>
+	    <input class="input2" type="submit" value="registe">
+	</form>
+    </body>
+</html>

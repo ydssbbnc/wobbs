@@ -1,0 +1,55 @@
+a:link {
+	     color:#4285F4;
+	 }
+	 a:visited {
+	     color:#4285F4;
+	 }
+	 a:hover {
+	     color: #1a0dab;
+	 }
+	 a:active {
+	     color: #4285f4;
+	 }
+	 a{
+	     font-weight:bold;
+	     text-decoration:none;
+	     font-size:100%;
+	 }
+html,body{
+    background-color:ffffff;
+    height:100%;
+    margin:0;
+}
+
+
+/*set div wich contain links*/
+.div_link{
+    background-color:#282A36;
+    align:right;
+    letter-spacing:5px;
+    text-align:center;
+}
+/*set footer*/
+.div_footer{
+    
+}
+.iframe1{
+    frameborder:yes;
+    border:1px #7891a4 solid;
+    height:85%;
+    width:49%;
+    margin-left:0.5%;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+.iframe3{
+    frameborder:yes;
+    border:1px 	     #7891a4 solid;
+    height:45%;
+    width:49%;
+    margin-left:0;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:0;
+}
